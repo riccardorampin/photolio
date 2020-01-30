@@ -9,6 +9,11 @@
     right:0;
 }
 
+.zero-tituli{
+    text-align: center;
+    font-size: smaller;
+}
+
 
 * { box-sizing: border-box; }
 
@@ -20,11 +25,14 @@ body {
     
 }
 
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /* ---- grid ---- */
 
-.grid {
-  background: #DDD;
-}
+
 
 /* clear fix */
 .grid:after {
@@ -37,7 +45,8 @@ body {
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+  width: 30%;
+  margin: 10px;
 }
 
 .grid-item {
